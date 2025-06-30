@@ -1,3 +1,47 @@
-*{
-    background-color: aqua;
+body{
+    background-color: whitesmoke;
+    width: 80%;
+    margin-left: 10%;
+    align-items: center;
+    
 }
+
+
+/* Shot descripsion*/
+.short-descripsion{
+    height: auto;
+    width: 70%;
+    background-color: bisque;
+    margin:auto;
+    padding: auto;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.short-txt{
+    padding: 0%;
+    font-size: small;
+}
+
+/*Coding area */
+.card-code{
+   width: 70%;
+   height: auto;
+
+   margin: auto;
+   padding: auto;
+
+   background-color: aqua;
+   border-radius: 20px;   
+}
+
+.card-code img {
+    width: 50%;
+    height: auto;
+    object-fit:cover;
+
+    border-radius: 20px;
+
+}
+
