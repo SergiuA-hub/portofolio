@@ -1,18 +1,27 @@
 body{
-    background-color: whitesmoke;
-    width: 80%;
-    margin-left: 10%;
-    align-items: center;
-    
+    background-color:whitesmoke;
+  
+    justify-content: center;
+    margin-left: 5%;
+
 }
 
-
+/*Navbar*/
+.nav{
+    height: 50px;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    width: 90%;
+}
 /* Shot descripsion*/
 .short-descripsion{
     height: auto;
     width: 70%;
     background-color: bisque;
-    margin:auto;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    margin-left: 15%;
     padding: auto;
     text-align: center;
     border-radius: 20px;
@@ -20,28 +29,74 @@ body{
 }
 
 .short-txt{
-    padding: 0%;
-    font-size: small;
-}
+    padding: auto;
+    margin: auto;
 
-/*Coding area */
-.card-code{
-   width: 70%;
-   height: auto;
-
-   margin: auto;
-   padding: auto;
-
-   background-color: aqua;
-   border-radius: 20px;   
-}
-
-.card-code img {
     width: 50%;
     height: auto;
-    object-fit:cover;
+    
+    font-size:large;
+}
 
+.main-container{
+
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+   
+   
+}
+    /*Code Area*/
+.code-container{
+
+    
+    margin-top: 80px;
+    display: flex;
+    gap: 80px;
+    row-gap: 150px;
+    flex-wrap:wrap;
+    justify-content: center;
+
+}
+
+
+    /*Code Prefab */
+.code-card{
+    background-color:  rgb(117, 158, 168);
+    display: flex;
+    width: 40%;
+    height: auto;
+
+    overflow: hidden;
+    
+    box-shadow: 0 4px 10px rgba(4, 129, 225, 0.08);
+   border-radius: 20px;
+}
+
+.code-card img {
+    height: auto;
+    width: 50%;
+    overflow: hidden;
+    margin: 10px;
     border-radius: 20px;
+}
 
+.code-content{
+   width: 50%;
+   
+   text-align: center;
+   overflow:hidden;
+
+   margin: 10px;
+   padding: 0px;
+}
+
+.code-content h3{
+    font-size:24px;
+}
+
+
+.code-content p {
+    font-size:18px;
 }
 
