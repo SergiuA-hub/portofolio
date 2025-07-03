@@ -44,9 +44,7 @@ body{
     width: 90%;
     margin-left: 5%;
     height: auto;
-    
-   
-   
+ 
 }
         /*Prefab Area*/
     /*Header area prefab*/
@@ -94,13 +92,15 @@ body{
     font-size: 20px;
 }
 
+
+
     /*Code Area*/
 .code-container{
 
     
     margin-top: 80px;
     display: flex;
-    gap: 80px;
+    gap: 50px;
     row-gap: 150px;
     flex-wrap:wrap;
     justify-content: center;
@@ -112,7 +112,7 @@ body{
 .code-card{
     background-color: oklch(71.5% 0.143 215.221);
     display: flex;
-    width: 40%;
+    width: 45%;
     height: auto;
 
     overflow: hidden;
@@ -126,11 +126,14 @@ body{
 
 .code-card img {
     height: auto;
-    width: 50%;
-    overflow: hidden;
+    max-height: 400px;
+    width: 40%;
+    overflow:hidden;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 30px;
 }
+
+
 
 .code-content{
    width: 50%;
@@ -149,6 +152,10 @@ body{
 
 .code-content p {
     font-size:18px;
+}
+
+.code-content a {
+    text-decoration: none;
 }
 
 /*another area*/
