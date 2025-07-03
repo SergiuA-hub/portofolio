@@ -1,6 +1,6 @@
 body{
-    background-color:whitesmoke;
-  
+    background-color:#F0EFEB;
+
     justify-content: center;
     margin-left: 5%;
 
@@ -9,8 +9,13 @@ body{
 /*Navbar*/
 .nav{
     height: 80px;
-    background-color: red;
+    background-color: #B6CEC8;
     position: fixed;
+
+    border-style: dashed;
+    border-top: 0px;
+    border-width: 5px;
+
     top: 0;
     width: 90%;
     border-radius: 0px 0px 25px 25px;
@@ -19,13 +24,22 @@ body{
 .short-descripsion{
     height: auto;
     width: 70%;
-    background-color: bisque;
+    background-color: #DBE7E4;
+    
     margin-top: 200px;
     margin-bottom: 150px;
     margin-left: 15%;
+    
     padding: auto;
     text-align: center;
+    
     border-radius: 20px;
+    border-style: dashed;
+    border-width: 5px;
+}
+
+.short-descripsion h3{
+    font-size: 28px;
 
 }
 
@@ -36,9 +50,9 @@ body{
     width: 50%;
     height: auto;
     
-    font-size:large;
+    font-size:24px;
 }
-
+   /*Main area*/
 .main-container{
 
     width: 90%;
@@ -51,9 +65,9 @@ body{
 
 .head-area{
     justify-content: center;
-    width: 200px;
+    width: 300px;
     height: auto;
-    background-color: green;
+    background-color: #FAD2E1;
     margin: auto;
     border-radius: 20px;
 }
@@ -74,9 +88,11 @@ body{
     width: 80%;
     height: auto;
 
-    background-color: brown;
+    background-color: #DBE7E4;
 
     border-radius: 20px;
+    border-style: dashed;
+    border-width: 5px;
 }
 
 .note h3{
@@ -110,17 +126,15 @@ body{
 
     /*Code Prefab */
 .code-card{
-    background-color: oklch(71.5% 0.143 215.221);
+    background-color: #99C1DE;
     display: flex;
     width: 45%;
     height: auto;
 
     overflow: hidden;
     
-   
-    border-color:oklch(60.9% 0.126 221.723);
-    border-style: solid;
-    border-width: 5px;
+    box-shadow: 4px 12px rgba(0,0,0,.08);
+    transform: translateY(-4px);
     border-radius: 20px;
 }
 
@@ -130,7 +144,7 @@ body{
     width: 40%;
     overflow:hidden;
     margin: 10px;
-    border-radius: 30px;
+    
 }
 
 
@@ -157,5 +171,49 @@ body{
 .code-content a {
     text-decoration: none;
 }
+    /*Game Dev area*/
+.GameDev-container{
+
+    
+    margin-top: 80px;
+    display: flex;
+    gap: 50px;
+    row-gap: 150px;
+    flex-wrap:wrap;
+    justify-content: center;
+
+
+}
+
+.gameDev-card{
+    background-color: #99C1DE;
+    display: flex;
+    width: 90%;
+    height: auto;
+
+    overflow: hidden;
+    
+    box-shadow: 4px 12px rgba(0,0,0,.08);
+    transform: translateY(-4px);
+    border-radius: 20px;
+}
+
+.gameDev-card img {
+    height: auto;
+    width: 30%;
+    overflow:hidden;
+    margin: 10px;
+    
+}
+.gameDev-content{
+    width: 60%;
+    text-align: center;
+   
+   overflow:hidden;
+
+   margin: 10px;
+   padding: 0px;
+}
+
 
 /*another area*/
