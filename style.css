@@ -8,11 +8,12 @@ body{
 
 /*Navbar*/
 .nav{
-    height: 50px;
+    height: 80px;
     background-color: red;
     position: fixed;
     top: 0;
     width: 90%;
+    border-radius: 0px 0px 25px 25px;
 }
 /* Shot descripsion*/
 .short-descripsion{
@@ -43,9 +44,56 @@ body{
     width: 90%;
     margin-left: 5%;
     height: auto;
+    
    
    
 }
+        /*Prefab Area*/
+    /*Header area prefab*/
+
+.head-area{
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    background-color: green;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.head-area p{
+    text-align: center;
+    font-size: 48px;
+}
+
+    /*Quick note area*/
+
+.note{
+    justify-content: center;
+    
+
+    padding: auto;
+    margin: 10%;    
+    width: 80%;
+    height: auto;
+
+    background-color: brown;
+
+    border-radius: 20px;
+}
+
+.note h3{
+    text-align: left;
+    margin: 10px;
+    font-size: 30px;
+
+}
+
+.note p{
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
     /*Code Area*/
 .code-container{
 
@@ -62,15 +110,18 @@ body{
 
     /*Code Prefab */
 .code-card{
-    background-color:  rgb(117, 158, 168);
+    background-color: oklch(71.5% 0.143 215.221);
     display: flex;
     width: 40%;
     height: auto;
 
     overflow: hidden;
     
-    box-shadow: 0 4px 10px rgba(4, 129, 225, 0.08);
-   border-radius: 20px;
+   
+    border-color:oklch(60.9% 0.126 221.723);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
 }
 
 .code-card img {
@@ -100,3 +151,4 @@ body{
     font-size:18px;
 }
 
+/*another area*/
