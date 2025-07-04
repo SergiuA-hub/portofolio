@@ -70,6 +70,8 @@ body{
     background-color: #FAD2E1;
     margin: auto;
     border-radius: 20px;
+
+    
 }
 
 .head-area p{
@@ -171,6 +173,13 @@ body{
 .code-content a {
     text-decoration: none;
 }
+
+.code-content ul{
+    list-style-position:inside;
+    list-style-type:decimal;
+
+}
+
     /*Game Dev area*/
 .GameDev-container{
 
@@ -215,5 +224,95 @@ body{
    padding: 0px;
 }
 
+/*3D area*/
+.tD-container{
+
+    
+    margin-top: 80px;
+    display:flex;
+    gap: 50px;
+    row-gap: 150px;
+    flex-wrap:wrap;
+    justify-content: center;
+
+
+}
+
+.tD-card{
+    background-color: #99C1DE;
+    
+    width: 20%;
+    height: auto;
+    
+    
+    
+    box-shadow: 4px 12px rgba(0,0,0,.08);
+    transform: translateY(-4px);
+    border-radius: 20px;
+}
+
+.tD-card img {
+    height: auto;
+    width: 90%;
+    overflow:hidden;
+    
+    margin: 20px;
+
+    
+}
+
+.tD-card h2{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 10px;
+}
 
 /*another area*/
+
+
+/*Footer area*/
+.footer-container{
+    height: 100px;
+    width: 70%;
+    background-color: #DBE7E4;
+    
+    
+    margin-bottom: 50px;
+    margin-left: 15%;
+    
+
+    padding: auto;
+    text-align: center;
+    
+    border-radius: 20px;
+    border-style: dashed;
+    border-width: 5px;
+    
+    
+}
+
+.footer-content{
+    height: auto;
+    width: 80%;
+    
+    display: inline;
+    
+    padding: 10px;
+
+    text-align: center;
+    align-items: center;
+
+}
+
+.footer-content a {
+    
+   padding: 80px;
+   font-size: 24px;
+   text-decoration: none;
+   
+}
+
+.footer-container p{
+    font-size: 24px;
+}
+
