@@ -224,6 +224,15 @@ body{
    padding: 0px;
 }
 
+.gameDev-content h3{
+    font-size: 32px;
+}
+
+.gameDev-content p{
+    font-size: 25px;
+    
+}
+
 /*3D area*/
 .tD-container{
 
@@ -242,7 +251,8 @@ body{
     background-color: #99C1DE;
     
     width: 20%;
-    height: auto;
+    height: 400px;
+
     
     
     
@@ -252,7 +262,7 @@ body{
 }
 
 .tD-card img {
-    height: auto;
+    height: 50%;
     width: 90%;
     overflow:hidden;
     
